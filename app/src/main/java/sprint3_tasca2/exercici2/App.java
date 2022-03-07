@@ -3,7 +3,7 @@ package sprint3_tasca2.exercici2;
 public class App {
 
     public static void main(String[] args){
-        Shop s = new Shop();
+        PaymentPlatform s = new PaymentPlatform();
 
         PayObject paypal = new PayObject("Paypal", 25554);
         PayObject visa = new PayObject("VISA", 544872);
@@ -17,7 +17,5 @@ public class App {
         System.out.println();
         s.purchase("Sandalias", 654.2, visa);
         System.out.println();
-
-    }
-    
+    }    
 }
